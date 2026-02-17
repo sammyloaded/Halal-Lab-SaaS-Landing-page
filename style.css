@@ -303,3 +303,174 @@ body {
   color: #555;
   line-height: 1.6;
 }
+
+.testimonial-section {
+  padding: 100px 5%;
+}
+
+.testimonial-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* LEFT SIDE */
+.testimonial-content {
+  max-width: 600px;
+}
+
+.testimonial-quote {
+  font-size: 40px;
+  font-weight: 400;
+   line-height: 47px;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+
+.testimonial-author h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.16px;
+
+}
+
+.testimonial-author p {
+  margin: 5px 0 30px 0;
+  color: #121212;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.case-btn {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  padding: 12px 24px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  transition: 0.3s ease;
+}
+
+.case-btn:hover {
+  opacity: 0.85;
+}
+
+.testimonial-image img {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.testimonial-nav {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: #DBF4FF;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-circle:hover {
+  background: #bdd3df;
+}
+
+/* SECTION WRAPPER */
+.cta-section {
+  padding: 120px 5%;
+}
+
+/* BLACK CARD */
+.cta-card {
+  max-width: 1300px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 20px;
+  padding: 70px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.cta-left h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.cta-left p {
+  color: #FFFFFFBF;
+  font-size: 18px;
+}
+
+.cta-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.cta-btn.primary {
+  background: #fff;
+  color: #000;
+}
+
+.cta-btn.primary:hover {
+  opacity: 0.85;
+}
+
+
+.cta-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid white;
+}
+
+.wh{
+    color: white;
+    border: 1px solid white;
+}
+
+.wh:hover{
+    opacity: 0.85;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
+
