@@ -2,11 +2,13 @@
 # 🧪 HalalLab – SaaS Landing Page
 
 A modern, fully responsive SaaS landing page built using **pure HTML and CSS** — no JavaScript and no CSS frameworks.
-
-🔗 **Live Demo:** [https://halallab.vercel.app/](https://halallab.vercel.app/)
-📂 **GitHub Repository:** [https://github.com/sammyloaded/Halal-Lab-SaaS-Landing-page](https://github.com/sammyloaded/Halal-Lab-SaaS-Landing-page)
-👨‍💻 **Author:** [https://github.com/sammyloaded/](https://github.com/sammyloaded/)
 ---
+
+## 🔗 **Live Demo:** [https://halallab.vercel.app/](https://halallab.vercel.app/)
+
+## 📂 **GitHub Repository:** [https://github.com/sammyloaded/Halal-Lab-SaaS-Landing-page](https://github.com/sammyloaded/Halal-Lab-SaaS-Landing-page)
+
+## 👨‍💻 **Author:** [https://github.com/sammyloaded/](https://github.com/sammyloaded/)
 
 ## 🚀 Overview
 
