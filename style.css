@@ -233,6 +233,7 @@ body {
 
 .feature-image {
   position: relative;
+  overflow: hidden;
 }
 
 
@@ -560,6 +561,7 @@ body {
   /* NAV */
   .nav-wrapper {
     flex-direction: row;
+    justify-content: space-around;
     gap: 20px;
   }
 
@@ -578,6 +580,12 @@ body {
   .hero-details h1 {
     font-size: 36px;
     line-height: 44px;
+  }
+
+  .hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
 
   .hero-details p {
@@ -612,6 +620,10 @@ body {
     font-size: 26px;
   }
 
+  .why-card p{
+    font-size: 14px;
+  }
+
   /* SECOND SECTION */
   .single-sec h1 {
     font-size: 32px;
@@ -621,6 +633,21 @@ body {
     font-size: 16px;
     margin-bottom: 50px;
   }
+  .feature-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.testimonial-container{
+    grid-template-columns: 1fr;
+
+}
+
+.cta-card{
+    display: flex;
+    flex-direction: column;
+}
 
   /* FEATURE CARDS */
   .feature-card {
@@ -646,15 +673,24 @@ body {
   /* CTA */
   .cta-left h2 {
     font-size: 32px;
+    text-align: center;
+    text-transform: uppercase ;
   }
 
   .cta-left p {
     font-size: 16px;
+    text-align: center;
   }
 
   .cta-btn {
     width: 100%;
+    display: flex;
     justify-content: center;
+  }
+
+  .cta-right{
+    display: flex;
+    flex-direction: column;
   }
 
   /* FOOTER */
