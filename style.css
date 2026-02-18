@@ -467,7 +467,8 @@ body {
 }
 
 .wh:hover{
-    opacity: 0.85;
+    background-color: white;
+    color: black;
 }
 
 .cta-link:hover {
