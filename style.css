@@ -180,6 +180,8 @@ body {
     margin-top: 56px;
 }
 
+
+
 .why-card h1{
     font-size: 28px;
     margin-top: 32px;
@@ -467,7 +469,8 @@ body {
 }
 
 .wh:hover{
-    opacity: 0.85;
+    background-color: white;
+    color: black;
 }
 
 .cta-link:hover {
@@ -578,8 +581,10 @@ body {
   }
 
   .hero-details h1 {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -4px;
+
     text-align: center;
   }
 
